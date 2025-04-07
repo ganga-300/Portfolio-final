@@ -1,0 +1,112 @@
+.nav{
+    display:flex;
+    justify-content: center;
+  
+    position: sticky;
+    top: 0;
+    background-color: black;
+    z-index: 999;
+    padding: 1rem 0;
+  
+    
+  }
+  
+  .nav a {
+    position: relative;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-family: 'Audiowide', cursive;
+    transition: color 0.3s ease;
+  }
+  
+  .nav a::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    left: 50%;
+    bottom: -5px;
+    background: #0ff;
+    transition: all 0.4s ease;
+    box-shadow: 0 0 10px #0ff, 0 0 20px #0ff;
+  }
+  
+  .nav a:hover {
+    color: #0ff;
+    text-shadow: 0 0 5px #0ff, 0 0 10px #0ff, 0 0 20px #0ff;
+  }
+  
+  .nav a:hover::after {
+    width: 100%;
+    left: 0;
+  }
+  
+  
+
+  .nav li{
+    list-style-type: none;
+    display: inline;
+    margin-left: 4vw;
+    color:#F9F9F9
+    
+  }
+
+
+
+
+
+
+
+body{
+background-image: url('blacklogos/gradient background.jpg');
+margin: 0;
+padding: 0;
+height: 100vh; 
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+.para{
+    color:white
+}
+
+.about-me{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1{
+ color:white
+}
+.profile-pic{
+    border-radius: 50%;
+    
+}
+
+
+.resume {
+    margin-top: 20px;
+    padding: 12px 28px;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    border: 2px solid #0ff;
+    border-radius: 14px;
+    background-color: transparent;
+    color: #0ff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 8px #0ff, 0 0 16px #0ff inset;
+    text-shadow: 0 0 5px #0ff;
+    backdrop-filter: blur(10px);
+  }
+  
+  .resume:hover {
+    background-color: rgba(0, 255, 255, 0.1);
+    transform: scale(1.05);
+    box-shadow: 0 0 12px #0ff, 0 0 25px #0ff, 0 0 40px #0ff;
+    text-shadow: 0 0 8px #0ff, 0 0 12px #0ff;
+  }
+  
