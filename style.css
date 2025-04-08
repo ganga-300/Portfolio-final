@@ -90,8 +90,8 @@ background-color: #000;
     height: 100%;
     border-radius: 50%;
     border: 2px solid transparent;
-    border-top: 2px solid yellow;
-    border-right: 2px solid yellow;
+    border-top: 2px solid #0ff;
+    border-right: 2px solid #0ff;
     top: 0;
     left: 0;
     z-index: 0;
@@ -113,7 +113,7 @@ background-color: #000;
 
 /* On hover - icon color */
 .social a:hover i {
-    color: #ffd700;
+    color: #0ff;
 }
 
 /* Spin animation */
