@@ -57,4 +57,4 @@ class Carousel {
 const exampleCarousel = new Carousel(galleryContainer, galleryItems, galleryControls);
 exampleCarousel.setControls();
 exampleCarousel.useControls();
-exampleCarousel.updateGallery(); // Call this once to set initial state
+exampleCarousel.updateGallery(); 

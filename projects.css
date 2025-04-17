@@ -63,7 +63,7 @@
 body {
   background: #0f0f0f;
   font-family: 'Poppins', sans-serif;
-  padding: 0 40px 40px 40px; /* removed top padding */
+  padding: 0 40px 40px 40px; 
   margin: 0;
   min-height: 100vh;
 }
@@ -78,7 +78,7 @@ body {
   transition: all 0.6s ease-in-out;
   margin: 0 auto;
   .card-container {
-    padding: 100px 20px 60px 20px; /* plenty of spacing below the nav */
+    padding: 100px 20px 60px 20px; 
   }
   
 }
